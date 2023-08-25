@@ -9,17 +9,40 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@chakra-ui/next-js": "^2.1.5",
+    "@chakra-ui/react": "^2.8.0",
+    "@sentry/react": "^7.64.0",
+    "@types/lodash": "^4.14.197",
     "@types/node": "20.5.4",
     "@types/react": "18.2.21",
     "@types/react-dom": "18.2.7",
     "autoprefixer": "10.4.15",
+    "dashjs": "github:chromakode/dash.js#wokenet-release",
+    "escape-string-regexp": "^5.0.0",
     "eslint": "8.47.0",
     "eslint-config-next": "13.4.19",
+    "framer-motion": "^10.16.1",
+    "hsluv": "^1.0.1",
+    "loader-utils": "^3.2.1",
+    "lodash": "^4.17.21",
+    "matrix-js-sdk": "^27.2.0",
+    "nanoid": "^4.0.2",
     "next": "13.4.19",
+    "papaparse": "^5.4.1",
     "postcss": "8.4.28",
     "react": "18.2.0",
     "react-dom": "18.2.0",
+    "react-error-boundary": "^4.0.11",
+    "react-google-recaptcha": "^3.1.0",
+    "react-hook-form": "^7.45.4",
+    "react-icons": "^4.10.1",
     "tailwindcss": "3.3.3",
-    "typescript": "5.1.6"
+    "tinycolor2": "^1.6.0",
+    "typescript": "5.1.6",
+    "woke-content": "github:wokenet/woke-content"
+  },
+  "devDependencies": {
+    "file-loader": "^6.2.0",
+    "use-resize-observer": "^9.1.0"
   }
 }
