@@ -1,5 +1,5 @@
 import * as React from 'react'
-import { HStack, Icon, Link as ChakraLink } from '@chakra-ui/react'
+import { HStack, Icon, Link as ChakraLink } from '@/c/Chakra';
 import {
   FaYoutube,
   FaFacebook,

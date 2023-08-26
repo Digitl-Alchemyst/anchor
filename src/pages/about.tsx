@@ -12,7 +12,7 @@ import {
   VStack,
   Heading,
   keyframes,
-} from '@chakra-ui/react'
+} from '@/c/Chakra';
 import { GetStaticProps, InferGetStaticPropsType } from 'next'
 import Papa from 'papaparse'
 import camelCase from 'lodash/camelCase'

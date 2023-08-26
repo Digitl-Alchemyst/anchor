@@ -23,7 +23,7 @@ import {
   VStack,
   Wrap,
   WrapItem,
-} from '@chakra-ui/react'
+} from '@/c/Chakra';
 import { useInView } from 'react-intersection-observer'
 import { FaLink } from 'react-icons/fa'
 

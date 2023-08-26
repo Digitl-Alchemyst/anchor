@@ -1,7 +1,7 @@
 import * as React from 'react'
 import { truncate } from 'lodash'
 import Head from 'next/head'
-import { Flex } from '@chakra-ui/react'
+import { Flex } from '@/c/Chakra';
 
 import { matrixServer } from '#/constants.json'
 import { GATag } from '@/l/googleAnalytics'

@@ -12,7 +12,7 @@ import {
   InputGroup,
   InputLeftElement,
   Flex,
-} from '@chakra-ui/react'
+} from '@/c/Chakra';
 import { throttle } from 'lodash'
 import { FaSearch } from 'react-icons/fa'
 

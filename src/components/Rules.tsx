@@ -1,5 +1,5 @@
 import * as React from 'react'
-import { Box, Heading, Text, VStack } from '@chakra-ui/react'
+import { Box, Heading, Text, VStack } from '@/c/Chakra';
 
 function Rule({ title, children }) {
   return (

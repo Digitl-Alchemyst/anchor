@@ -1,5 +1,5 @@
 /* eslint-disable import/prefer-default-export */
-import { keyframes } from '@chakra-ui/react'
+import { keyframes } from '@/c/Chakra';
 
 export const rotate = keyframes`
   from {

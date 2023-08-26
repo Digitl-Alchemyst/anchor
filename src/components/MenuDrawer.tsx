@@ -9,7 +9,7 @@ import {
   DrawerOverlay,
   SimpleGrid,
   VStack,
-} from '@chakra-ui/react'
+} from '@/c/Chakra';
 
 import { secondaryHeaderLinks, socialPlatforms } from './Header'
 import { footerLinks } from './FooterLinks'

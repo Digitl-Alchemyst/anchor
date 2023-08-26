@@ -1,5 +1,5 @@
 import * as React from 'react'
-import { HStack, Icon, Link as ChakraLink } from '@chakra-ui/react'
+import { HStack, Icon, Link as ChakraLink } from '@/c/Chakra';
 import { FaPaypal, FaPatreon, FaGlasses } from 'react-icons/fa'
 import { IoLogoVenmo } from 'react-icons/io5'
 import { SiCashapp } from 'react-icons/si'

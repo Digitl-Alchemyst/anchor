@@ -1,6 +1,6 @@
 /* eslint-disable react/display-name */
 import * as React from 'react'
-import { Box } from '@chakra-ui/react'
+import { Box } from '@/c/Chakra';
 import { Scrollbars as ReactCustomScrollbars } from 'react-custom-scrollbars'
 
 const Scrollbars = React.forwardRef(

@@ -10,7 +10,7 @@ import {
   Icon,
   SlideFade,
   Text,
-} from '@chakra-ui/react'
+} from '@/c/Chakra';
 
 import Eye from 'woke-content/images/eye.svg'
 import { rotate } from '../keyframes'

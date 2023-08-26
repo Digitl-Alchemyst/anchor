@@ -21,7 +21,7 @@ import {
   Text,
   Box,
   Checkbox,
-} from '@chakra-ui/react'
+} from '@/c/Chakra';
 // import { Scrollbars } from 'react-custom-scrollbars'
 import ReCAPTCHA from 'react-google-recaptcha'
 import { useForm } from 'react-hook-form'

@@ -4,7 +4,6 @@ import * as React from 'react'
 import { useCallback, useEffect, useLayoutEffect, useRef } from 'react'
 import {
   chakra,
-  Box,
   Button,
   Center,
   Flex,
@@ -16,13 +15,12 @@ import {
   CloseButton,
   Icon,
   SkeletonText,
-  useToken,
   InputGroup,
   InputRightElement,
   Skeleton,
   Text,
   IconButton,
-} from '@chakra-ui/react'
+} from '@/c/Chakra'
 import { motion, AnimatePresence } from 'framer-motion'
 import { useForm } from 'react-hook-form'
 import useResizeObserver from 'use-resize-observer'
@@ -193,7 +191,7 @@ function ChatEntry({ onSend }) {
 }
 
 function Home() {
-  const messagesRef = useRef<ReactCustomScrollbars>()
+  const messagesRef = useRef<HTMLInputElement>()
   const authButtonRef = useRef<HTMLButtonElement>()
   const isScrollPinned = useRef<boolean>(true)
   const { userInfo, timeline, announcement, view, room, actions } = useAnchor()
@@ -218,7 +216,7 @@ function Home() {
     if (!localStorage.getItem(INTRO_SEEN_KEY)) {
       onIntroOpen()
     }
-  }, [])
+  }, [onAnnouncementClose, onAnnouncementOpen])
 
   function handleDismissIntro() {
     onIntroClose()
@@ -354,12 +352,6 @@ function Home() {
         >
           {timeline ? (
             <Flex ref={chatContainerRef} overflow="hidden">
-              {/* <Scrollbars
-                ref={messagesRef}
-                onScrollFrame={handleScrollMessages}
-                autoHeightMax="100%"
-                autoHeight
-              > */}
                 {timeline.map((ev) => (
                   <ChatEvent
                     // @ts-ignore

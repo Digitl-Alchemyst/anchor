@@ -1,5 +1,5 @@
 import * as React from 'react'
-import { Box } from '@chakra-ui/react'
+import { Box } from '@/c/Chakra';
 
 import Page from 'src/components/Page'
 

@@ -1,6 +1,6 @@
 import * as React from 'react'
 import Link from 'next/link'
-import { Center, Heading, Link as ChakraLink, Text } from '@chakra-ui/react'
+import { Center, Heading, Link as ChakraLink, Text } from '@/c/Chakra';
 
 import Page from '../components/Page'
 import Rules from '../components/Privacy'

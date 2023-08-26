@@ -9,7 +9,7 @@ import {
   Text,
   useToken,
   VStack,
-} from '@chakra-ui/react'
+} from '@/c/Chakra';
 import escapeStringRegexp from 'escape-string-regexp'
 import { ErrorBoundary } from 'react-error-boundary'
 

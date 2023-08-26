@@ -12,7 +12,7 @@ import {
   Spacer,
   useBreakpointValue,
   useDisclosure,
-} from '@chakra-ui/react'
+} from '@/c/Chakra';
 import {
   FaYoutube,
   FaFacebook,

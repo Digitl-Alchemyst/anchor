@@ -18,7 +18,7 @@ import {
   Slider,
   SliderFilledTrack,
   SliderTrack,
-} from '@chakra-ui/react'
+} from '@/c/Chakra';
 import { transparentize } from '@chakra-ui/theme-tools'
 import dashjs from 'dashjs'
 import {

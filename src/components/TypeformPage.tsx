@@ -1,6 +1,6 @@
 import * as React from 'react'
 import { useRef } from 'react'
-import { Box } from '@chakra-ui/react'
+import { Box } from '@/c/Chakra';
 
 import Page from './Page'
 import FooterLinks from './FooterLinks'

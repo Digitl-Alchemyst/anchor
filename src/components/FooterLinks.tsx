@@ -1,7 +1,7 @@
 /* eslint-disable react/function-component-definition */
 import * as React from 'react'
 import Link from 'next/link'
-import { Link as ChakraLink, HStack } from '@chakra-ui/react'
+import { Link as ChakraLink, HStack } from '@/c/Chakra';
 
 function FooterLink({ href, children }) {
   return (

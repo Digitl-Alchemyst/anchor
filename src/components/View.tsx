@@ -1,6 +1,6 @@
 import * as React from 'react'
 import { useState } from 'react'
-import { AspectRatio, Box, useBreakpointValue } from '@chakra-ui/react'
+import { AspectRatio, Box, useBreakpointValue } from '@/c/Chakra';
 import dynamic from 'next/dynamic'
 
 import OfflinePlaceholder from './Broken/OfflinePlaceholder'

@@ -1,6 +1,6 @@
 import * as React from 'react'
 import Link from 'next/link'
-import { Center, Text, chakra, VStack, Button } from '@chakra-ui/react'
+import { Center, Text, chakra, VStack, Button } from '@/c/Chakra';
 
 import BackgroundVideo from 'woke-content/images/bg.mp4'
 
